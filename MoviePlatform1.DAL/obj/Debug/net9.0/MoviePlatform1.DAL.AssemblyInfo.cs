@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviePlatform1.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1de2329d898acd6aa42e570c9557e22906f56953")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fb821779f9322fc6f3f4ca3200738edea70ee23")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviePlatform1.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviePlatform1.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

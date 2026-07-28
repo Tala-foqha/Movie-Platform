@@ -11,14 +11,17 @@ namespace MoviePlatform1.PL.Extentions
             Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.User.RequireUniqueEmail = true;
-                //options.Password.RequireDigit = true;//0-9
-                //options.Password.RequireLowercase = true;//a-z
-                //options.Password.RequireUppercase = true;//A-Z
+                //validation for register
+                options.Password.RequireDigit = true;//0-9
+                options.Password.RequireLowercase = true;//a-z
+                options.Password.RequireUppercase = true;//A-Z
 
-                //options.Password.RequireNonAlphanumeric = true;// romoz !@#$%
-                //options.Password.RequiredLength = 10;
-                //options.Lockout.MaxFailedAccessAttempts = 5;
-                //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Password.RequireNonAlphanumeric = true;// romoz !@#$%
+                options.Password.RequiredLength = 10;
+                options.Lockout.MaxFailedAccessAttempts = 5;// اايوزر معه خمس محاولات يسجل الباسورد غلط
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                //بنعمل لليوزر بلوك لمدة عشر دقائق
+
             })
            .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
                    return Services;

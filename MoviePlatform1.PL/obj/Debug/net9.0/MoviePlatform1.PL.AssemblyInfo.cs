@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("57d4955c-3af0-423a-80a5-821001333f31")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2e31ee8baa062be181677cd093d8f665f7048d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fb821779f9322fc6f3f4ca3200738edea70ee23")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,9 +3,14 @@
 using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using MoviePlatform1.DAL.Dto.Request;
 using MoviePlatform1.DAL.Dto.Response;
 using MoviePlatform1.DAL.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace MoviePlatform1.BLL.Services
 {
@@ -14,13 +19,15 @@ namespace MoviePlatform1.BLL.Services
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IEmailSender _emailSender;
         private readonly IHttpContextAccessor _httpContext;
-        public AuthenticationService(UserManager<ApplicationUser> userManager,IEmailSender emailSender,IHttpContextAccessor httpContextAccessor )
+        private readonly IConfiguration _configuration;
+        public AuthenticationService(UserManager<ApplicationUser> userManager, IEmailSender emailSender, IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
         {
             _emailSender = emailSender;
+            _configuration = configuration;
             _userManager = userManager;
             _httpContext = httpContextAccessor;
 
-                
+
         }
 
         public async Task<LoginResponse> LoginAsync(LoginRequest request)
@@ -34,7 +41,7 @@ namespace MoviePlatform1.BLL.Services
                     Message = "Invalid Email"
                 };
             }
-            if(!await _userManager.IsEmailConfirmedAsync(user))
+            if (!await _userManager.IsEmailConfirmedAsync(user))
             {
                 return new LoginResponse()
                 {
@@ -57,7 +64,8 @@ namespace MoviePlatform1.BLL.Services
             return new LoginResponse()
             {
                 Success = true,
-                Message = "success"
+                Message = "success",
+                AccessToken = await GenerateAccessToken(user)
             };
         }
 
@@ -77,19 +85,19 @@ namespace MoviePlatform1.BLL.Services
                     error = userManeger.Errors.Select(e => e.Description).ToList()
                 };
             }
-            await _userManager.AddToRoleAsync(User,"User");
+            await _userManager.AddToRoleAsync(User, "User");
             //للتاكد  عشان اعرف اليوزر وصل بشكل صحيح ولا لا
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(User);
             // بحول التوكن لصيغة امنة لتفادي اي خطأ هاد النص بنعمل مرة وحدة م حد بوخذه
             token = Uri.EscapeDataString(token);
-            var emailUrl = $"{_httpContext.HttpContext.Request.Scheme}://{_httpContext.HttpContext.Request.Host}/api/Account/confirmemail?token={token}&userId={User.Id}"; 
+            var emailUrl = $"{_httpContext.HttpContext.Request.Scheme}://{_httpContext.HttpContext.Request.Host}/api/Account/confirmemail?token={token}&userId={User.Id}";
             await _emailSender.SendEmail(
                 email: User.Email,
                 subject: "welcome",
                 $"<h1>Welcome {request.UserName}</h1>" +
                 $"<p>Please confirm your email:</p>" +
                 $"<a href=\"{emailUrl}\">Confirm Email</a>"
-            
+
                 );
             return new RegisterResponse()
             {
@@ -110,8 +118,31 @@ namespace MoviePlatform1.BLL.Services
             }
             return true;
         }
+        private async Task<String> GenerateAccessToken(ApplicationUser user)
+        {
+            //أكثر من داتا بدي اخزنها
+            //اول مجال ممكن نحط سترينج احنا ونكتبه ولك في مسميات جاهزة
+            var userClaims = new List<Claim>()
+            {
+                new Claim(ClaimTypes.NameIdentifier,user.Id),
+                new Claim(ClaimTypes.Name,user.UserName),
+                new Claim(ClaimTypes.Email,user.Email),
+            };
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]!));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            //هيك بنشئ التوكن وبنحط جواها كل القيم الي عملناهم و3 اجزاء الي لازم يكزنو فيها 
+            var token = new JwtSecurityToken(
+        issuer: _configuration["Jwt:Issuer"],
+        audience: _configuration["Jwt:Audience"],
+        claims: userClaims,
+        expires: DateTime.Now.AddDays(5),
+        signingCredentials: credentials
+        );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
     }
+}
 
    
-       
-    }

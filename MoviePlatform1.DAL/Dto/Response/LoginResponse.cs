@@ -4,5 +4,6 @@
     {
         public String Message { get; set; }
         public bool Success { get; set; }
+        public string? AccessToken {  get; set; }
     }
 }

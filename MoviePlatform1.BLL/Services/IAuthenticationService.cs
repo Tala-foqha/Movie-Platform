@@ -9,5 +9,6 @@ namespace MoviePlatform1.BLL.Services
         Task<RegisterResponse> RegisterAsync(RegisterRequest request);
         Task<LoginResponse> LoginAsync(LoginRequest request);
     Task<bool> confirmEmailAsync(String token, String userId);
+        Task<> RequestPasswordReset(ForgotPaaswordRequest request);
     }
 }

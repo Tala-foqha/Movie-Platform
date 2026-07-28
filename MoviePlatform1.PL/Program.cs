@@ -16,6 +16,7 @@ namespace MoviePlatform1.PL
 
 
             builder.Services.AddControllers();
+            builder.Services.AddAuthorization();
 
 
 
