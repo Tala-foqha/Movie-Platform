@@ -10,7 +10,7 @@ namespace MoviePlatform1.PL.Extentions
         {
             Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
-                //options.User.RequireUniqueEmail = true;
+                options.User.RequireUniqueEmail = true;
                 //options.Password.RequireDigit = true;//0-9
                 //options.Password.RequireLowercase = true;//a-z
                 //options.Password.RequireUppercase = true;//A-Z
@@ -20,7 +20,7 @@ namespace MoviePlatform1.PL.Extentions
                 //options.Lockout.MaxFailedAccessAttempts = 5;
                 //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
             })
-           .AddEntityFrameworkStores<ApplicationDbContext>();
+           .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
                    return Services;
         }
     }

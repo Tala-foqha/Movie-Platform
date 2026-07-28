@@ -41,6 +41,24 @@ namespace MoviePlatform1.PL.Controllers
 
             return Ok(result);
         }
+   
+        [HttpGet("confirmemail")]
+        public async Task<IActionResult> ConfirmEmail(string token, string userId)
+        {
+            bool isConfirmed = await _authenticationService.confirmEmailAsync(token, userId);
 
+            if (isConfirmed)
+            {
+                return Content(
+                    "<h1>Email Confirmed Successfully ✅</h1>",
+                    "text/html"
+                );
+            }
+
+            return Content(
+                "<h1>Email Confirmation Failed ❌</h1>",
+                "text/html"
+            );
+        }
     }
 }

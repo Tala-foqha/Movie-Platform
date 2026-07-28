@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviePlatform1.BLL.Services
 {
-    internal interface IEmailSender
+    public interface IEmailSender
     {
         public Task SendEmail(string email,string subject,string message);
     }

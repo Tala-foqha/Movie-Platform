@@ -9,6 +9,8 @@ namespace MoviePlatform1.PL.Extentions
         {
             Services.AddScoped<IAuthenticationService, AuthenticationService>();
             Services.AddScoped<ISeedData, RoleSeedData>();
+            Services.AddScoped<IEmailSender, EmailSender>();
+
 
             return Services;
         }

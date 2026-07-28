@@ -12,11 +12,11 @@ namespace MoviePlatform1.BLL.Services
     {
         public Task SendEmail(string email, string subject, string message)
         {
-            var client = new SmtpClient("smtp.office365.com", 587)
+            var client = new SmtpClient("smtp.gmail.com", 587)
             {
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("foqhat835@gmail.com", "your password")
+                Credentials = new NetworkCredential("foqhat835@gmail.com", "xias mpgo nnuy fjny")
             };
 
             return client.SendMailAsync(
