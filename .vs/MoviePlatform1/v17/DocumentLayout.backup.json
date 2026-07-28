@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IAuthenticationService.cs",
@@ -183,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T07:06:56.631Z",
               "EditorCaption": ""
@@ -220,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationServicesExtentions.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Extentions\\ApplicationServicesExtentions.cs",
@@ -245,12 +245,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\AccountController.cs*",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAiwCAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T07:06:16.185Z",
