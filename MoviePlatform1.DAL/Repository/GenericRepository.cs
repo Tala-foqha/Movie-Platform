@@ -1,4 +1,5 @@
-﻿using MoviePlatform1.DAL.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using MoviePlatform1.DAL.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,24 +30,64 @@ namespace MoviePlatform1.DAL.Repository
             return affected > 0;
         }
 
-        public Task<bool> DeleteRangAsync(List<T> entity)
+        public async Task<bool> DeleteRangAsync(List<T> entity)
         {
-            throw new NotImplementedException();
+            _context.RemoveRange(entity);
+            return await _context.SaveChangesAsync()>0;
         }
 
-        public Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter, string[]? includes = null)
+       
+            public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter, String[]? includes = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = _context.Set<T>();
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            // لسا ما رجع الداتا ع جهاز اليوزر
+            return query.ToList();
+            
         }
 
-        public Task<T?> Getone(Expression<Func<T, bool>> filter, string[]? includes = null)
+
+        public async Task<T?> Getone(Expression<Func<T, bool>> filter, String[]? includes = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = _context.Set<T>();
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            return await query.FirstOrDefaultAsync(filter);
         }
 
-        public IQueryable<T> GetQureable(Expression<Func<T, bool>> filter, string[]? includes = null)
+        public IQueryable<T> GetQureable(Expression<Func<T, bool>> filter, String[]? includes = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = _context.Set<T>();
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            // لسا ما رجع الداتا ع جهاز اليوزر
+            return query;
+            //    var response = _context.Adapt<List<CategoryResponse>>();
+            //}
         }
 
         public async Task<bool>UpdateAsync(T entity)
