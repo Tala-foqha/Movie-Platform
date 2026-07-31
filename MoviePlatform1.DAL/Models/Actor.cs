@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviePlatform1.DAL.Models
 {
-    public class Actor
+    public class Actor: AuditEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

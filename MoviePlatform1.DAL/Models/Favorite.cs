@@ -13,6 +13,7 @@ namespace MoviePlatform1.DAL.Models
         public string UserId { get; set; }
         public Movie Movie { get; set; }
         public int movieId {  get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     }
 }

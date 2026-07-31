@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviePlatform1.DAL.Models
 {
-    public class Movie
+    public class Movie: AuditEntity
     {
         public int Id { get; set; }
         public string Title { get; set; }
