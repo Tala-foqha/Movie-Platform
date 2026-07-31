@@ -61,6 +61,10 @@ namespace MoviePlatform1.BLL.Services
                 };
 
             }
+            var refreshToken=await GenerateRefreshToken(user);
+            SertRefreshTokenCookies(refreshToken);
+
+
             return new LoginResponse()
             {
                 Success = true,
@@ -136,13 +140,138 @@ namespace MoviePlatform1.BLL.Services
         issuer: _configuration["Jwt:Issuer"],
         audience: _configuration["Jwt:Audience"],
         claims: userClaims,
-        expires: DateTime.Now.AddDays(5),
+        expires: DateTime.Now.AddMonths(5),
         signingCredentials: credentials
         );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public async  Task<ForgotPasswordResponse> RequestPasswordReset(ForgotPasswordRequest request)
+        {
+           var user=await _userManager.FindByEmailAsync(request.Email);//return applicationuser nullble
+            if (user == null)
+                return new ForgotPasswordResponse()
+                {
+                    Message = "Email not found",
+                    Success = false
+                };
+            //create code
+            var random=new Random();
+            //بدي من هاد الراندوم اربع حروف والرينج
+          var code=  random.Next(999,1000).ToString();
+            user.CodeRequestPassword = code;
+            user.PasswordResetCodeExpiry = DateTime.UtcNow.AddMinutes(15);
+            //تحديث المعلومات
+            await _userManager.UpdateAsync(user);
+            await _emailSender.SendEmail(
+                email:user.Email,
+                subject:"Reset password",
+                message:$"<p>Code Is {code}</p>"
+                );
+            return new ForgotPasswordResponse()
+            {
+                Message = "Code Sent to your email",
+                Success = true
+            };
+        }
+
+        public async Task<ResetPasswordResponse> ResetPasswordAsync(ResetPasswordRequest request)
+        {
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user is null)
+                return new ResetPasswordResponse()
+                {
+                    Message = "Email is not found",
+                    Success = false
+                };
+            if(user.PasswordResetCodeExpiry<DateTime.UtcNow)
+                return new ResetPasswordResponse()
+                {
+                    Message = "Code Ecpired",
+                    Success = false
+                };
+            //نفحص اذا الباسورد الجديد نفس القديم عن طريق ميثود
+            var isSamePassword = await _userManager.CheckPasswordAsync(user, request.NewPassword);
+            if (isSamePassword)
+            {
+                return new ResetPasswordResponse()
+                {
+                    Message = "password must diffrent from old password",
+                    Success = false
+                };
+            };
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user,token, request.NewPassword);
+            //من جواها بتعمل ابديت للداتا بيس
+
+            await _emailSender.SendEmail(user.Email, "change Password", "<p>Your password is changed</p>");
+
+            return new ResetPasswordResponse()
+            {
+                Message = "password reset successfully",
+                Success = true
+            };
+        }
+        private async Task<String> GenerateRefreshToken(ApplicationUser user)
+        {
+            var refreshToken=Guid.NewGuid().ToString();
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(15);
+            await _userManager.UpdateAsync(user);
+            return refreshToken;
+        }
+        //each func do one task only
+        //fun that set in cookies
+        private void SertRefreshTokenCookies(string refreshToken)
+        {
+            _httpContext.HttpContext.Response.Cookies.Append("refreshToken", refreshToken, new CookieOptions
+            {
+                HttpOnly = true, //important
+                Secure = false, //مستحيل اقبل اي ريكوست جاي من http only https ,true for production
+                SameSite = SameSiteMode.None,// بنخليها ستريكت لما نرفع المشروع
+                //لما تقبل اي ريكويست اقبلو من موقعني انا اذا كانت ستركت
+                Expires = DateTime.UtcNow.AddDays(15)
+            });
+        }
+
+        public async Task<LoginResponse> RefreshTokenAsync()
+        {
+            var refreshToken = _httpContext.HttpContext.Request.Cookies["refreshToken"];//جبلي اياها from http only
+
+            if (refreshToken == null)
+            {
+                return new LoginResponse()
+                {
+                    Success = false,
+                    Message = "no refresh token"
+                };
+            }
+            //اجيب معلومات الوزر الي اله هاد الرفريش  توكن
+            var user = _userManager.Users.FirstOrDefault(u => u.RefreshToken == refreshToken);
+            if(user.RefreshTokenExpiry<DateTime.UtcNow)
+            {
+                return new LoginResponse()
+                {
+                    Success = false,
+                    Message = "refresh token expried"
+                };
+            }
+
+            var newRefreshToken = await GenerateRefreshToken(user);
+            SertRefreshTokenCookies(newRefreshToken);
+            return new LoginResponse()
+            {
+                Message="success",
+                Success = true,
+
+                AccessToken = await GenerateAccessToken(user),
+            };
+
+        }
+                }
+
     }
-}
+
 
    

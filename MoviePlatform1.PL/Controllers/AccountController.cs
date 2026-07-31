@@ -60,5 +60,27 @@ namespace MoviePlatform1.PL.Controllers
                 "text/html"
             );
         }
+        [HttpPost("Sendcode")]
+        public async Task<IActionResult>RequestResetPassword(ForgotPasswordRequest request)
+        {
+            var result=await _authenticationService.RequestPasswordReset(request);
+            if(!result.Success)return BadRequest(result);
+            return Ok(result);
+        }
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResertPassword(ResetPasswordRequest request)
+        {
+            var result = await _authenticationService.ResetPasswordAsync(request);
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
+
+        }
+        [HttpPost("Refresh")]
+        public async Task<IActionResult> Refresh()
+        {
+            var res = await _authenticationService.RefreshTokenAsync();
+            if (!res.Success) return Unauthorized(res);
+            return Ok(res);
+        }
     }
 }

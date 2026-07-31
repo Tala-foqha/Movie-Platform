@@ -38,6 +38,16 @@
   },
   {
     "ContainingType": "MoviePlatform1.PL.Controllers.AccountController",
+    "Method": "Refresh",
+    "RelativePath": "api/Account/Refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviePlatform1.PL.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/register",
     "HttpMethod": "POST",
@@ -47,6 +57,38 @@
       {
         "Name": "request",
         "Type": "MoviePlatform1.DAL.Dto.Request.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviePlatform1.PL.Controllers.AccountController",
+    "Method": "ResertPassword",
+    "RelativePath": "api/Account/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MoviePlatform1.DAL.Dto.Request.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviePlatform1.PL.Controllers.AccountController",
+    "Method": "RequestResetPassword",
+    "RelativePath": "api/Account/Sendcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MoviePlatform1.DAL.Dto.Request.ForgotPasswordRequest",
         "IsRequired": true
       }
     ],

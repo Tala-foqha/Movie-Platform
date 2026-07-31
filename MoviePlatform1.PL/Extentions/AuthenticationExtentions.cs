@@ -25,7 +25,7 @@ namespace MoviePlatform1.PL.Extentions
                    ValidateIssuer = true,
                    ValidateAudience = true,
                    ValidateLifetime = true,
-                   ClockSkew= TimeSpan.Zero,
+                   ClockSkew= TimeSpan.Zero,//الوقت الاحتياطي اذا خلص وقت الاكسيس توكن
                    ValidateIssuerSigningKey = true,
                    ValidIssuer = Configuration["Jwt:Issuer"],
                    ValidAudience = Configuration["Jwt:Audience"],
