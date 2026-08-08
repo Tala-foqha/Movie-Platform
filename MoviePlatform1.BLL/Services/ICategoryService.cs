@@ -1,4 +1,5 @@
-﻿using MoviePlatform1.DAL.Dto.Request;
+﻿using Microsoft.AspNetCore.DataProtection.KeyManagement.Internal;
+using MoviePlatform1.DAL.Dto.Request;
 using MoviePlatform1.DAL.Dto.Response;
 using MoviePlatform1.DAL.Models;
 using System;
@@ -16,6 +17,8 @@ namespace MoviePlatform1.BLL.Services
         public Task<List<CategoryResponse>> GetAllCategories(string lang = "en");
        public  Task<CategoryResponse?> GetCategory(Expression<Func<Category, bool>> filter);
       public Task<bool> DeleteCategory(int id);
+        public Task<bool>UpdateCategory(int id, CategoryUpdateRequest request);
+
 
 
     }

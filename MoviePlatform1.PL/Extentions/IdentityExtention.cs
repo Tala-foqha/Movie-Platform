@@ -8,24 +8,27 @@ namespace MoviePlatform1.PL.Extentions
     {
         public static IServiceCollection AddIdentityServices(this IServiceCollection Services)
         {
-            Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            Services.AddIdentityCore<ApplicationUser>(options =>
             {
                 options.User.RequireUniqueEmail = true;
-                //validation for register
-                options.Password.RequireDigit = true;//0-9
-                options.Password.RequireLowercase = true;//a-z
-                options.Password.RequireUppercase = true;//A-Z
 
-                options.Password.RequireNonAlphanumeric = true;// romoz !@#$%
+                // Password validation
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireNonAlphanumeric = true;
                 options.Password.RequiredLength = 10;
-                options.Lockout.MaxFailedAccessAttempts = 5;// اايوزر معه خمس محاولات يسجل الباسورد غلط
+
+                // Lockout
+                options.Lockout.MaxFailedAccessAttempts = 5;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-                //بنعمل لليوزر بلوك لمدة عشر دقائق
 
             })
-           .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
-                   return Services;
+            .AddRoles<IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
+
+            return Services;
         }
     }
 }
-

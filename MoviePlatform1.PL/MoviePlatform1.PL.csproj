@@ -19,4 +19,8 @@
     <ProjectReference Include="..\MoviePlatform1.BLL\MoviePlatform1.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

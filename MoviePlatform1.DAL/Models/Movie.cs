@@ -19,6 +19,6 @@ namespace MoviePlatform1.DAL.Models
         public List<MovieTranslation> Translations { get; set; }
         public List<MovieCategory> MovieCategories {  get; set; }
         public  List<MovieActor> MovieActors { get; set;}
-
+        public List<MovieImage> MovieImages { get; set; }
     }
 }

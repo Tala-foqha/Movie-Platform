@@ -98,6 +98,7 @@ namespace MoviePlatform1.BLL.Services
             await _emailSender.SendEmail(
                 email: User.Email,
                 subject: "welcome",
+                message:
                 $"<h1>Welcome {request.UserName}</h1>" +
                 $"<p>Please confirm your email:</p>" +
                 $"<a href=\"{emailUrl}\">Confirm Email</a>"
@@ -159,7 +160,7 @@ namespace MoviePlatform1.BLL.Services
             //create code
             var random=new Random();
             //بدي من هاد الراندوم اربع حروف والرينج
-          var code=  random.Next(999,1000).ToString();
+          var code=  random.Next(1000,10000).ToString();
             user.CodeRequestPassword = code;
             user.PasswordResetCodeExpiry = DateTime.UtcNow.AddMinutes(15);
             //تحديث المعلومات
@@ -185,7 +186,15 @@ namespace MoviePlatform1.BLL.Services
                     Message = "Email is not found",
                     Success = false
                 };
-            if(user.PasswordResetCodeExpiry<DateTime.UtcNow)
+            if (user.CodeRequestPassword != request.Code)
+            {
+                return new ResetPasswordResponse()
+                {
+                    Message = "Invalid code",
+                    Success = false
+                };
+            }
+            if (user.PasswordResetCodeExpiry<DateTime.UtcNow)
                 return new ResetPasswordResponse()
                 {
                     Message = "Code Ecpired",
@@ -203,6 +212,14 @@ namespace MoviePlatform1.BLL.Services
             };
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
             var result = await _userManager.ResetPasswordAsync(user,token, request.NewPassword);
+            if (!result.Succeeded)
+            {
+                return new ResetPasswordResponse()
+                {
+                    Message = string.Join(", ", result.Errors.Select(e => e.Description)),
+                    Success = false
+                };
+            }
             //من جواها بتعمل ابديت للداتا بيس
 
             await _emailSender.SendEmail(user.Email, "change Password", "<p>Your password is changed</p>");
@@ -217,7 +234,7 @@ namespace MoviePlatform1.BLL.Services
         {
             var refreshToken=Guid.NewGuid().ToString();
             user.RefreshToken = refreshToken;
-            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(15);
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddMinutes(15);
             await _userManager.UpdateAsync(user);
             return refreshToken;
         }
@@ -231,7 +248,7 @@ namespace MoviePlatform1.BLL.Services
                 Secure = false, //مستحيل اقبل اي ريكوست جاي من http only https ,true for production
                 SameSite = SameSiteMode.None,// بنخليها ستريكت لما نرفع المشروع
                 //لما تقبل اي ريكويست اقبلو من موقعني انا اذا كانت ستركت
-                Expires = DateTime.UtcNow.AddDays(15)
+                Expires = DateTime.UtcNow.AddMinutes(15)
             });
         }
 

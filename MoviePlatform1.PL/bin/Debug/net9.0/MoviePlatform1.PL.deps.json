@@ -14,6 +14,11 @@
         },
         "runtime": {
           "MoviePlatform1.PL.dll": {}
+        },
+        "resources": {
+          "ar/MoviePlatform1.PL.resources.dll": {
+            "locale": "ar"
+          }
         }
       },
       "Azure.Core/1.38.0": {

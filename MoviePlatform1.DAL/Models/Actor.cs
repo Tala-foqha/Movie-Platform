@@ -8,11 +8,11 @@ namespace MoviePlatform1.DAL.Models
 {
     public class Actor: AuditEntity
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public int Id { get; set; }    
         public string ImageUrl {  get; set; }
         public DateTime DateOfBirth {  get; set; }
+        public List<ActorTranslation> ActorTranslations { get; set; }
+        public List<MovieActor> MovieActors { get; set; }
 
     }
 }

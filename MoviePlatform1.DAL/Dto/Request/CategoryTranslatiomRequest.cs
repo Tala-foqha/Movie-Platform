@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KASHOP.DAL.Dto.Request
+namespace MoviePlatform1.DAL.Request
 {
     public class CategoryTranslatiomRequest
     {

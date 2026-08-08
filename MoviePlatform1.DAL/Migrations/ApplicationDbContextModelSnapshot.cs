@@ -176,17 +176,12 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("UpdateByIdId")
                         .HasColumnType("nvarchar(450)");
@@ -204,6 +199,36 @@ namespace MoviePlatform1.DAL.Migrations
                     b.HasIndex("UpdateByIdId");
 
                     b.ToTable("Actors");
+                });
+
+            modelBuilder.Entity("MoviePlatform1.DAL.Models.ActorTranslation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ActorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Language")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActorId");
+
+                    b.ToTable("ActorTranslations");
                 });
 
             modelBuilder.Entity("MoviePlatform1.DAL.Models.ApplicationUser", b =>
@@ -305,6 +330,13 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<string>("UpdateByIdId")
                         .HasColumnType("nvarchar(450)");
 
@@ -346,7 +378,7 @@ namespace MoviePlatform1.DAL.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("CategoryTranslation");
+                    b.ToTable("CategoryTranslations");
                 });
 
             modelBuilder.Entity("MoviePlatform1.DAL.Models.Favorite", b =>
@@ -409,6 +441,9 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Property<DateTime>("RelaeseDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<string>("UpdateByIdId")
                         .HasColumnType("nvarchar(450)");
 
@@ -457,6 +492,28 @@ namespace MoviePlatform1.DAL.Migrations
                     b.ToTable("MovieCategory");
                 });
 
+            modelBuilder.Entity("MoviePlatform1.DAL.Models.MovieImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("imagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MovieId");
+
+                    b.ToTable("MovieImage");
+                });
+
             modelBuilder.Entity("MoviePlatform1.DAL.Models.MovieTranslation", b =>
                 {
                     b.Property<int>("Id")
@@ -484,7 +541,7 @@ namespace MoviePlatform1.DAL.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("MovieTranslation");
+                    b.ToTable("movieTranslations");
                 });
 
             modelBuilder.Entity("MoviePlatform1.DAL.Models.Review", b =>
@@ -584,6 +641,17 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Navigation("UpdateById");
                 });
 
+            modelBuilder.Entity("MoviePlatform1.DAL.Models.ActorTranslation", b =>
+                {
+                    b.HasOne("MoviePlatform1.DAL.Models.Actor", "Actor")
+                        .WithMany("ActorTranslations")
+                        .HasForeignKey("ActorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Actor");
+                });
+
             modelBuilder.Entity("MoviePlatform1.DAL.Models.Category", b =>
                 {
                     b.HasOne("MoviePlatform1.DAL.Models.ApplicationUser", "CreateBy")
@@ -647,7 +715,7 @@ namespace MoviePlatform1.DAL.Migrations
             modelBuilder.Entity("MoviePlatform1.DAL.Models.MovieActor", b =>
                 {
                     b.HasOne("MoviePlatform1.DAL.Models.Actor", "Actor")
-                        .WithMany()
+                        .WithMany("MovieActors")
                         .HasForeignKey("ActorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -682,6 +750,17 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("MoviePlatform1.DAL.Models.MovieImage", b =>
+                {
+                    b.HasOne("MoviePlatform1.DAL.Models.Movie", "Movie")
+                        .WithMany("MovieImages")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Movie");
+                });
+
             modelBuilder.Entity("MoviePlatform1.DAL.Models.MovieTranslation", b =>
                 {
                     b.HasOne("MoviePlatform1.DAL.Models.Movie", "Movie")
@@ -712,6 +791,13 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("MoviePlatform1.DAL.Models.Actor", b =>
+                {
+                    b.Navigation("ActorTranslations");
+
+                    b.Navigation("MovieActors");
+                });
+
             modelBuilder.Entity("MoviePlatform1.DAL.Models.Category", b =>
                 {
                     b.Navigation("translations");
@@ -724,6 +810,8 @@ namespace MoviePlatform1.DAL.Migrations
                     b.Navigation("MovieActors");
 
                     b.Navigation("MovieCategories");
+
+                    b.Navigation("MovieImages");
 
                     b.Navigation("Reviews");
 

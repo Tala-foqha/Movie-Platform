@@ -15,6 +15,11 @@ namespace MoviePlatform1.DAL.Data
         public DbSet<Favorite> Favorite { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Actor> Actors { get; set; }
+        public DbSet<ActorTranslation> ActorTranslations { get; set; }
+
+
+        public DbSet<CategoryTranslation> CategoryTranslations { get; set; }
+        public DbSet<MovieTranslation>movieTranslations{ get; set; }
 
         public DbSet<MovieCategory>MovieCategories { get; set; }
         public DbSet<MovieCategory>MovieActors { get; set; }    
@@ -44,6 +49,7 @@ namespace MoviePlatform1.DAL.Data
                 {
                     entry.Property(x => x.CreatedOn).CurrentValue = DateTime.UtcNow;
                     entry.Property(x => x.CreatedById).CurrentValue = currentUserId;
+                    Console.WriteLine($"Current User: {currentUserId}");
                 }
                 if(entry.State == EntityState.Modified)
                 {
