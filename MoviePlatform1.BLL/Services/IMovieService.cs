@@ -13,10 +13,12 @@ namespace MoviePlatform1.BLL.Services
     public interface IMovieService
     {
         public Task<MovieResponse> CreateMovie(MovieRequest request);
-        public Task<List<MovieResponse>> GetAllMovie();
-        public Task<MovieResponse?> GetMovie(Expression<Func<Movie, bool>> filtter);
+        public Task<PaginationResponse<MovieResponse>> GetAllMovie(MovieFiltterRequest request);
+        
+            public Task<MovieResponse?> GetMovie(Expression<Func<Movie, bool>> filtter);
         public Task<bool> DeleteMovie(int id);
         public Task<bool> UpdateMovie(int id, MovieUpdateRequest movieUpdateRequest);
+        Task<WatchMovieResponse> WatchMovie(int movieId, string userId);
 
 
     }

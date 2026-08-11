@@ -22,7 +22,7 @@ namespace MoviePlatform1.PL.Controllers
             _actorService = actorService;
         }
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Create([FromForm] ActorRequest request)
         {
             
@@ -56,6 +56,8 @@ namespace MoviePlatform1.PL.Controllers
             return Ok(await _actorService.GetActor(c => c.Id == Id));
         }
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int id)
         {
             var delete = await _actorService.DeleteActor(id);

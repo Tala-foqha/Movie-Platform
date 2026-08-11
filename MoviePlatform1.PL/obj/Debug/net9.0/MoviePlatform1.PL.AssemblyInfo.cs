@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de9451f747dbbc5f83b7ccac520a856b4d2c3d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e0eab998fd353744d0fa9ab019b22572f9cc27")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviePlatform1.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

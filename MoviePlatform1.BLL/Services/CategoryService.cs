@@ -26,6 +26,16 @@ namespace MoviePlatform1.BLL.Services
            
 
             var category = request.Adapt<Category>();
+            var categoryExists = await _categoryRepository.Getone(
+        m => m.translations.Any(t =>
+            t.Name == request.translations.First().Name)
+    );
+
+            if (categoryExists != null)
+            {
+                return null;
+            }
+
 
             if (request.MainImage != null)
             {

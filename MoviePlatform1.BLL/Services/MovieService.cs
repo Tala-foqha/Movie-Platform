@@ -1,5 +1,6 @@
 ﻿using Azure.Core;
 using Mapster;
+using MoviePlatform1.BLL.Extentions;
 using MoviePlatform1.DAL.Dto.Request;
 using MoviePlatform1.DAL.Dto.Response;
 using MoviePlatform1.DAL.Models;
@@ -19,16 +20,29 @@ namespace MoviePlatform1.BLL.Services
         private readonly IFileService _fileService;
         private readonly IMovieRepository _movieRepository;
         private readonly INotificationService _notificationService;
-        public MovieService(IFileService fileService, IMovieRepository movieRepository, INotificationService notificationService)
+        private readonly IWatchHistoryRepository _watchHistoryRepository;
+        private readonly IUserMovieAccessRepository _userMovieAccessRepository;
+        public MovieService(IFileService fileService, IMovieRepository movieRepository, INotificationService notificationService, IWatchHistoryRepository watchHistoryRepository, IUserMovieAccessRepository userMovieAccessRepository)
         {
             _fileService = fileService;
             _movieRepository = movieRepository;
             _notificationService = notificationService;
+            _watchHistoryRepository = watchHistoryRepository;
+            _userMovieAccessRepository = userMovieAccessRepository;
         }
 
         public async Task<MovieResponse> CreateMovie(MovieRequest request)
         {
             var movie = request.Adapt<Movie>();
+            var existingMovie = await _movieRepository.Getone(
+        m => m.Translations.Any(t =>
+            t.Title == request.Translations.First().Title)
+    );
+
+            if (existingMovie != null)
+            {
+                return null;
+            }
             movie.MovieImages ??= new List<MovieImage>();
             if (request.MainImage != null)
             {
@@ -36,6 +50,7 @@ namespace MoviePlatform1.BLL.Services
                 if (string.IsNullOrEmpty(imagePath))
                     throw new Exception("Image upload failed");
                 movie.MainImage = imagePath;
+                movie.price =(decimal) request.price;
 
 
             }
@@ -75,22 +90,71 @@ namespace MoviePlatform1.BLL.Services
 
         }
 
-
-        public async Task<List<MovieResponse>> GetAllMovie()
+        //بدل اللست صار يرجعهم كبجنيشن ريسبونس
+        //ببجيب الافلام بعمل الفلتر بعدين الباجنيشن
+        public async Task<PaginationResponse<MovieResponse>> GetAllMovie(MovieFiltterRequest request)
         {
-            var movies = await _movieRepository.GetAllAsync(
+            var query =  _movieRepository.GetQureable(
                 c => c.Status == EntityStatus.Active,
                 new string[]
                 {
                    nameof(Movie.Translations),
                    nameof(Movie.CreateBy),
-                   nameof(Movie.MovieImages)
+                   nameof(Movie.MovieImages),
+                   nameof(Movie.MovieCategories)
 
 
                 }
                 );
-            var response = movies.Adapt<List<MovieResponse>>();
-            return response;
+            if (request.Search != null)
+            {
+                query = query.Where(m => m.Translations.Any(t => t.Title.Contains(request.Search)));
+            }
+            if (request.CategoryId.HasValue)
+            {
+                query.Where(m => m.MovieCategories.Any(c => c.CategoryId == request.CategoryId));
+            }
+            if (request.IsExclusive.HasValue)
+            {
+                query.Where(m => m.IsExclusive == request.IsExclusive); 
+
+            }
+            if (request.IsExclusive == true)
+
+            {
+
+                if (request.MinPrice.HasValue)
+
+                {
+
+                    query = query.Where(m =>
+
+                        m.price >= request.MinPrice.Value);
+
+                }
+
+                if (request.MaxPrice.HasValue)
+
+                {
+
+                    query = query.Where(m =>
+
+                        m.price <= request.MaxPrice.Value);
+
+                }
+            }
+                var paginated = await query.ToPaginationasync(request.Page, request.Limit);
+
+            return new PaginationResponse<MovieResponse>
+            {
+                Data = paginated.Data.Adapt<List<MovieResponse>>(),
+                TotalCount = paginated.TotalCount,
+                Page = paginated.Page,
+                Limit = paginated.Limit
+
+
+
+            };
         }
 
         public async Task<bool> UpdateMovie(int id, MovieUpdateRequest movieUpdateRequest)
@@ -160,8 +224,8 @@ namespace MoviePlatform1.BLL.Services
             var title = movie.Translations?.Where(t => t.Language == CultureInfo.CurrentCulture.Name).Select(t => t.Title).FirstOrDefault();
 
             await _notificationService.NotifyMovieUpdated(title);
-                return await _movieRepository.UpdateAsync(movie);
-            }
+            return await _movieRepository.UpdateAsync(movie);
+        }
 
         public async Task<bool> DeleteMovie(int id)
         {
@@ -172,21 +236,79 @@ namespace MoviePlatform1.BLL.Services
                     nameof(Movie.MovieImages)
                 }
                 );
-            if(movie == null)
+            if (movie == null)
             {
                 return false;
 
             }
             _fileService.Delete(movie.MainImage);
-            foreach(var image in movie.MovieImages)
+            foreach (var image in movie.MovieImages)
             {
                 _fileService.Delete(image.imagePath);
             }
             return await _movieRepository.DeleteAsync(movie);
 
         }
-        
 
-        
+        public async Task<WatchMovieResponse?> WatchMovie(
+     int movieId,
+     string userId)
+        {
+            var movie = await _movieRepository.Getone(
+                m => m.Id == movieId);
+
+            if (movie == null)
+                return null;
+
+            // Free movie
+            if (!movie.IsExclusive)
+            {
+                await _watchHistoryRepository.CreateAsync(
+                    new WatchHistory
+                    {
+                        UserId = userId,
+                        MovieId = movieId,
+                        WatchedAt = DateTime.Now
+                    });
+
+                return new WatchMovieResponse
+                {
+                    CanWatch = true,
+                    Message = "This movie is free. You can watch it.",
+                    MovieUrl = movie.movieUrl
+                };
+            }
+
+            // Exclusive movie
+            var access = await _userMovieAccessRepository.Getone(
+                x => x.UserId == userId &&
+                     x.MovieId == movieId);
+
+            if (access == null || !access.HasAccess)
+            {
+                return new WatchMovieResponse
+                {
+                    CanWatch = false,
+                    Message = "This movie is exclusive. Please purchase it.",
+                    MovieUrl = null
+                };
+            }
+
+            // Has access
+            await _watchHistoryRepository.CreateAsync(
+                new WatchHistory
+                {
+                    UserId = userId,
+                    MovieId = movieId,
+                    WatchedAt = DateTime.Now
+                });
+
+            return new WatchMovieResponse
+            {
+                CanWatch = true,
+                Message = "You have access to this movie.",
+                MovieUrl = movie.movieUrl
+            };
         }
     }
+}

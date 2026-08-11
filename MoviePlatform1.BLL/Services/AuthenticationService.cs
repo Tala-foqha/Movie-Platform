@@ -89,7 +89,21 @@ namespace MoviePlatform1.BLL.Services
                     error = userManeger.Errors.Select(e => e.Description).ToList()
                 };
             }
-            await _userManager.AddToRoleAsync(User, "User");
+            var roleResult = await _userManager.AddToRoleAsync(User,"User");
+            if (!roleResult.Succeeded)
+            {
+                var errors = string.Join(", ",
+                    roleResult.Errors.Select(e => e.Description));
+
+                return new RegisterResponse
+                {
+                    success = false,
+                    Message = errors,
+                    error = roleResult.Errors
+                        .Select(e => e.Description)
+                        .ToList()
+                };
+            }
             //للتاكد  عشان اعرف اليوزر وصل بشكل صحيح ولا لا
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(User);
             // بحول التوكن لصيغة امنة لتفادي اي خطأ هاد النص بنعمل مرة وحدة م حد بوخذه

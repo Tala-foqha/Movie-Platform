@@ -102,7 +102,7 @@ namespace MoviePlatform1.PL
                 var services = scope.ServiceProvider;
 
                 var seeders = services.GetServices<ISeedData>();
-
+                Console.WriteLine($"Seeders count: {seeders.Count()}");
                 foreach (var seeder in seeders)
                 {
                     try

@@ -24,7 +24,7 @@ namespace MoviePlatform1.PL.Controllers
         [HttpPost]
 
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromForm] CategoryRequest request)
         {
             if (!ModelState.IsValid)
@@ -35,6 +35,17 @@ namespace MoviePlatform1.PL.Controllers
 
             var lang = Request.Headers["Accept-Language"].ToString();
             var category = await _categoryService.CreateCategory(request, lang);
+            if (category == null)
+            {
+                return BadRequest(
+                    new
+                    {
+                        data = (object?)null,
+                        message = "Category already exists"
+                    }
+                    
+                    );
+            }
             return Ok(new
             {
                 data = category
@@ -77,6 +88,8 @@ namespace MoviePlatform1.PL.Controllers
             });
         }
         [HttpPatch("{Id}")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Update(int id, [FromForm] CategoryUpdateRequest request)
         {
             var response = await _categoryService.UpdateCategory(id, request);

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using MoviePlatform1.BLL.Services;
@@ -24,26 +25,34 @@ namespace MoviePlatform1.PL.Controllers
         [HttpPost]
 
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromForm] MovieRequest request)
         {
             
             var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             var lang = Request.Headers["Accept-Language"].ToString();
-            var category = await _movieService.CreateMovie(request);
+            var movie = await _movieService.CreateMovie(request);
+            if (movie == null)
+            {
+                return BadRequest(new
+                {
+                    data = (object?)null,
+                    message = "Movie already exists"
+                });
+            }
             return Ok(new
             {
-                data = category
+                data = movie
             })
             ;
             //return Ok("وصل");
         }
         [HttpGet("GetAll")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery]MovieFiltterRequest request)
         {
             var lang = Request.Headers["Accept-Language"].ToString();
-            var categories = await _movieService.GetAllMovie();
+            var categories = await _movieService.GetAllMovie(request);
             return Ok(
                 new
                 {
@@ -74,11 +83,31 @@ namespace MoviePlatform1.PL.Controllers
             });
         }
         [HttpPatch("{Id}")]
+        [Authorize(Roles = "Admin")]
+
+
+
         public async Task<IActionResult> Update(int id, [FromForm] MovieUpdateRequest request)
         {
             var response = await _movieService.UpdateMovie(id, request);
             if (!response) return BadRequest();
             return Ok();
+        }
+        [HttpPost("watch/{movieId}")]
+        [Authorize]
+        public async Task<IActionResult> WatchMovie(int movieId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (userId == null)
+                return Unauthorized();
+
+            var result = await _movieService.WatchMovie(movieId, userId);
+
+            if (result == null)
+                return NotFound("Movie not found.");
+
+            return Ok(result);
         }
     }
 

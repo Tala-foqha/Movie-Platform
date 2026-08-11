@@ -17,8 +17,11 @@ namespace MoviePlatform1.DAL.Dto.Request
 
         public List<int> CategoryIds { get; set; }
         public List<int> ActorIds { get; set; }
+        public decimal? price { get; set; }
 
         public List<MovieTranslationRequest> Translations { get; set; }
+        public bool IsExclusive { get; set; }
+
 
     }
 }

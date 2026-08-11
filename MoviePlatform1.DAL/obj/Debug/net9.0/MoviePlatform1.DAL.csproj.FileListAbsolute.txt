@@ -1,13 +1,13 @@
-C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.deps.json
-C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.runtimeconfig.json
-C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.dll
-C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.pdb
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.csproj.AssemblyReference.cache
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.AssemblyInfoInputs.cache
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.AssemblyInfo.cs
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.csproj.CoreCompileInputs.cache
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.sourcelink.json
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.deps.json
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.runtimeconfig.json
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\bin\Debug\net9.0\MoviePlatform1.DAL.pdb
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\refint\MoviePlatform1.DAL.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\MoviePlatform1\MoviePlatform1.DAL\obj\Debug\net9.0\MoviePlatform1.DAL.pdb
