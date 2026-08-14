@@ -50,6 +50,14 @@ namespace MoviePlatform1.BLL.Services
                 };
 
             }
+            if(!await _userManager.IsLockedOutAsync(user))
+            {
+                return new LoginResponse()
+                {
+                    Success = false,
+                    Message = "account is Blocked"
+                };
+            }
             var res = await _userManager.CheckPasswordAsync(user, request.Password);
 
             if (!res)
@@ -141,12 +149,20 @@ namespace MoviePlatform1.BLL.Services
         {
             //أكثر من داتا بدي اخزنها
             //اول مجال ممكن نحط سترينج احنا ونكتبه ولك في مسميات جاهزة
+            var roles = await _userManager.GetRolesAsync(user);
+
             var userClaims = new List<Claim>()
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.Id),
+        new Claim(ClaimTypes.Name, user.UserName!),
+        new Claim(ClaimTypes.Email, user.Email!)
+    };
+
+            // Add roles to JWT Claims
+            foreach (var role in roles)
             {
-                new Claim(ClaimTypes.NameIdentifier,user.Id),
-                new Claim(ClaimTypes.Name,user.UserName),
-                new Claim(ClaimTypes.Email,user.Email),
-            };
+                userClaims.Add(new Claim(ClaimTypes.Role, role));
+            }
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]!));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 

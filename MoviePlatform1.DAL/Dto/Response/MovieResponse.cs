@@ -18,7 +18,8 @@ namespace MoviePlatform1.DAL.Dto.Response
 
         public string MainImage { get; set; }
         public List<string> Images { get; set; }
-        //public bool IsExclusive { get; set; }
+        public string movieUrl {  get; set; }
+        public bool IsExclusive { get; set; }
 
     }
 }

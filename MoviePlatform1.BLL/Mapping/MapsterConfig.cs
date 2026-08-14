@@ -34,6 +34,16 @@ namespace MoviePlatform1.BLL.Extensions
                 .FirstOrDefault()
             : null)
    ;
+            TypeAdapterConfig<Review, ReviewResponse>.NewConfig()
+                .Map(dest=>dest.UserName,src=>src.User.FullName)
+                .Map(dest => dest.MovieTitle,
+                     src => src.Movie.Translations != null
+                         ? src.Movie.Translations
+                             .Where(t => t.Language == CultureInfo.CurrentCulture.Name)
+                             .Select(t => t.Title)
+                             .FirstOrDefault()
+                         : null);
+
             TypeAdapterConfig<Favorite, FavoriteResponse>.NewConfig()
    .Map(dest => dest.FavId, src => src.FavoriteId)
    .Map(dest=>dest.MovieId,src=>src.Movie.Id)
@@ -71,6 +81,8 @@ namespace MoviePlatform1.BLL.Extensions
                 .Map(dest => dest.Id, src => src.Id)
                 //.Map(dest=>dest.UserCreated,src=>src.CreateBy.UserName)
                 .Map(dest => dest.MainImage, src => BuildImageUrl(src.MainImage))
+                                .Map(dest => dest.movieUrl, src => src.movieUrl)
+
                 .Map(dest => dest.Images,
                      src => src.MovieImages.Select(i => BuildImageUrl(i.imagePath)))
                 .Map(dest => dest.Name,

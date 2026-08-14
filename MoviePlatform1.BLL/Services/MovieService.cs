@@ -72,6 +72,7 @@ namespace MoviePlatform1.BLL.Services
             var movie1 = await _movieRepository.CreateAsync(movie);
             var title = movie.Translations?.Where(t => t.Language == CultureInfo.CurrentCulture.Name).Select(t => t.Title).FirstOrDefault();
             await _notificationService.NotifyMovieAdded(title);
+            movie1.movieUrl = request.movieUrl;
 
 
             return movie1.Adapt<MovieResponse>();
@@ -112,11 +113,11 @@ namespace MoviePlatform1.BLL.Services
             }
             if (request.CategoryId.HasValue)
             {
-                query.Where(m => m.MovieCategories.Any(c => c.CategoryId == request.CategoryId));
+                query = query.Where(m => m.MovieCategories.Any(c => c.CategoryId == request.CategoryId));
             }
             if (request.IsExclusive.HasValue)
             {
-                query.Where(m => m.IsExclusive == request.IsExclusive); 
+                query = query.Where(m => m.IsExclusive == request.IsExclusive); 
 
             }
             if (request.IsExclusive == true)
@@ -150,7 +151,7 @@ namespace MoviePlatform1.BLL.Services
                 Data = paginated.Data.Adapt<List<MovieResponse>>(),
                 TotalCount = paginated.TotalCount,
                 Page = paginated.Page,
-                Limit = paginated.Limit
+                                Limit = paginated.Limit
 
 
 

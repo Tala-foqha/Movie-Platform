@@ -11,7 +11,7 @@ namespace MoviePlatform1.DAL.Dto.Request
         //بأي صفحة هو مثلا بأول صفحة بجيب اول عشرة
         public int Page { get; set; } = 1;
         //كم منتج بكل صفحة
-        public int Limit { get; set; }
+        public int Limit { get; set; } = 5;
         public string? Search {  get; set; }
     }
 }

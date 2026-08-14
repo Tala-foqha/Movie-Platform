@@ -11,34 +11,67 @@ namespace MoviePlatform1.BLL.Services
     {
         private readonly IReviewRepository _reviewRepository;
         private readonly IMovieRepository _movieRepository;
-        public ReviewService(IReviewRepository reviewRepository, IMovieRepository movieRepository)
+        private readonly IWatchHistoryRepository _watchHistoryRepository;
+        public ReviewService(IReviewRepository reviewRepository, IMovieRepository movieRepository, IWatchHistoryRepository watchHistoryRepository   )
         {
             _reviewRepository = reviewRepository;
             _movieRepository = movieRepository;
+            _watchHistoryRepository = watchHistoryRepository;
         }
 
-        public async Task<ReviewResponse> AddRev(string userId, ReviewRequest request)
+        public async Task<ReviewResponse> AddRev(
+     string userId,
+     ReviewRequest request)
         {
-            var existMovie = await _movieRepository.Getone(m => m.Id == request.MovieId);
-            if (existMovie == null) return null;
-            var exitRev = await _reviewRepository.Getone(
-                r=>r.MovieId==request.MovieId&&r.UserId==userId,
+            // Check movie exists
+            var existMovie = await _movieRepository.Getone(
+                m => m.Id == request.MovieId
+            );
+
+            if (existMovie == null)
+                return null;
+
+            // Check if user watched the movie
+            var watched = await _watchHistoryRepository.Getone(
+                w => w.MovieId == request.MovieId &&
+                     w.UserId == userId
+            );
+
+            if (watched == null)
+                return null;
+
+            // Check if user already reviewed the movie
+            var existRev = await _reviewRepository.Getone(
+                r => r.MovieId == request.MovieId &&
+                     r.UserId == userId,
                 new string[]
                 {
-                    $"{nameof(Review.Movie)}.{nameof(Movie.Translations)}",
-                    nameof(Review.User)
-                   
+            nameof(Review.User),
+            $"{nameof(Review.Movie)}.{nameof(Movie.Translations)}"
                 }
-                );
+            );
 
+            if (existRev != null)
+                return null;
+
+            // Create review
             var movieRev = request.Adapt<Review>();
             movieRev.UserId = userId;
 
-            
             await _reviewRepository.CreateAsync(movieRev);
-            return movieRev.Adapt<ReviewResponse>();
-        }
 
+            // Get review again with User and Movie
+            var result = await _reviewRepository.Getone(
+                r => r.Id == movieRev.Id,
+                new string[]
+                {
+            nameof(Review.User),
+            $"{nameof(Review.Movie)}.{nameof(Movie.Translations)}"
+                }
+            );
+
+            return result.Adapt<ReviewResponse>();
+        }
         public async Task<bool> DeleteReviewAsync(int movieId, string userId)
         {
             var IsRevMovie = await _reviewRepository.Getone(m => m.MovieId

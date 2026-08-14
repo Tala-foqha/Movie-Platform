@@ -67,6 +67,8 @@ namespace MoviePlatform1.PL.Controllers
             return Ok(await _movieService.GetMovie(c => c.Id == Id));
         }
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int id,int movieId)
         {
             var delete = await _movieService.DeleteMovie(id);

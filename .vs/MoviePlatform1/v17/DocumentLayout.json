@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\request\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\request\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\usermanegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\usermanegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\request\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\request\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\request\\changerolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\request\\changerolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\usermanegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\usermanegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\iusermanegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,40 +107,8 @@
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\extentions\\paginationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -136,10 +160,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MoviePlatforms1/True/SqlTable/dbo.Movies.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\request\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\request\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,18 +170,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809185257_addpriceMovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MoviePlatform1.DAL\\Migrations\\20260809185257_addpriceMovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809184927_addpriceMovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MoviePlatform1.DAL\\Migrations\\20260809184927_addpriceMovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809184649_addprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MoviePlatform1.DAL\\Migrations\\20260809184649_addprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -231,10 +239,6 @@
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809155902_orderAndItemOrderModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MoviePlatform1.DAL\\Migrations\\20260809155902_orderAndItemOrderModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -249,10 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\utils\\roleseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -401,20 +401,12 @@
       "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\extentions\\databaseextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|solutionrelative:movieplatform1.bll\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642AB819-633F-45A9-A50E-CE198E09AAD6}|MoviePlatform1.PL\\MoviePlatform1.PL.csproj|solutionrelative:movieplatform1.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AE204A6-34B9-481A-8159-57418B33BAAE}|MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.bll\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -610,16 +602,28 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.Roles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\dto\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\dto\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\migrations\\20260809145133_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\migrations\\20260809145133_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\migrations\\20260809185257_addpricemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\migrations\\20260809185257_addpricemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\migrations\\20260809184927_addpricemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\migrations\\20260809184927_addpricemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\migrations\\20260809184649_addprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\migrations\\20260809184649_addprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\movieplatform1\\movieplatform1.dal\\migrations\\20260809155902_orderanditemordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C812FF-4715-4E64-B719-CCF2894A5262}|MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj|solutionrelative:movieplatform1.dal\\migrations\\20260809155902_orderanditemordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -629,7 +633,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 141,
+          "SelectedChildIndex": 77,
           "Children": [
             {
               "$type": "Bookmark",
@@ -637,20 +641,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
+              "Title": "ReviewRequest.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ReviewRequest.cs",
+              "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ReviewRequest.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ReviewRequest.cs",
+              "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\ReviewRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:46:47.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UserManagmentController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\UserManagmentController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\UserManagmentController.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\UserManagmentController.cs",
               "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\UserManagmentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACcAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwCwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T18:11:14.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "ChangeRoleRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
@@ -658,12 +675,11 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T18:10:29.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T18:10:29.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "UserListResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\UserListResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\UserListResponse.cs",
@@ -671,12 +687,11 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\UserListResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T17:45:26.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T17:45:26.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "UserDetailsResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\UserDetailsResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\UserDetailsResponse.cs",
@@ -684,25 +699,24 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\UserDetailsResponse.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T17:44:50.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T17:44:50.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "UserManegment.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\UserManegment.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\UserManegment.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\UserManegment.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\UserManegment.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDAAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAjwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T17:42:01.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "IUserManegment.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IUserManegment.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IUserManegment.cs",
@@ -710,12 +724,11 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\IUserManegment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T17:42:01.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T17:42:01.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "MovieFiltterRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieFiltterRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\MovieFiltterRequest.cs",
@@ -723,12 +736,11 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\MovieFiltterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T16:26:22.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T16:26:22.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "PaginationExtentions.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Extentions\\PaginationExtentions.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Extentions\\PaginationExtentions.cs",
@@ -736,25 +748,24 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Extentions\\PaginationExtentions.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAmwCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T15:24:12.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T15:24:12.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "PaginationResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\PaginationResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\PaginationResponse.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\PaginationResponse.cs",
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\PaginationResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T15:09:48.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\PaginationRequest.cs",
@@ -762,12 +773,11 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\PaginationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T15:07:19.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-11T15:07:19.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "StripeSetting.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\StripeSetting.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\StripeSetting.cs",
@@ -779,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "StripeSettings.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\StripeSettings.cs",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.BLL\\Service\\StripeSettings.cs",
@@ -791,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "20260809190213_addorder.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809190213_addorder.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809190213_addorder.cs",
@@ -803,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 155,
               "Title": "20260809185257_addpriceMovies.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809185257_addpriceMovies.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809185257_addpriceMovies.cs",
@@ -815,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 156,
               "Title": "20260809184927_addpriceMovie.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809184927_addpriceMovie.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809184927_addpriceMovie.cs",
@@ -827,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 157,
               "Title": "20260809184649_addprice.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809184649_addprice.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809184649_addprice.cs",
@@ -839,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "dbo.Movies.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviePlatforms1/True/SqlTable/dbo.Movies.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/./MoviePlatforms1/True/SqlTable/dbo.Movies.sql",
@@ -848,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "CheckoutController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\CheckoutController.cs",
@@ -861,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "CheckoutResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\CheckoutResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\CheckoutResponse.cs",
@@ -869,25 +879,24 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\CheckoutResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T17:07:31.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T17:07:31.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CheckoutService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\CheckoutService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\CheckoutService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\CheckoutService.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\CheckoutService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowGMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAIwLoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T17:06:10.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "ICheckoutService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\ICheckoutService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\ICheckoutService.cs",
@@ -899,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\OrderController.cs",
@@ -911,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IReviewService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IReviewService.cs",
@@ -923,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "OrderItemResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\OrderItemResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\OrderItemResponse.cs",
@@ -935,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "OrderDetailsResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
@@ -947,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ChangeOrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ChangeOrderStatus.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ChangeOrderStatus.cs",
@@ -959,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "OrderResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\OrderResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\OrderResponse.cs",
@@ -971,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\OrderService.cs",
@@ -983,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IOrderService.cs",
@@ -995,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\OrderRepository.cs",
@@ -1007,7 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\IOrderRepository.cs",
@@ -1019,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 158,
               "Title": "20260809155902_orderAndItemOrderModel.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809155902_orderAndItemOrderModel.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809155902_orderAndItemOrderModel.cs",
@@ -1031,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\OrderItem.cs",
@@ -1043,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "CheckoutRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\CheckoutRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\CheckoutRequest.cs",
@@ -1055,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\Order.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\Order.cs",
@@ -1068,9 +1077,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 66,
-              "Title": "dbo.UsersRoles.sql",
+              "Title": "dbo.UsersRoles [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviePlatforms1/True/SqlTable/dbo.UsersRoles.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/./MoviePlatforms1/True/SqlTable/dbo.UsersRoles.sql",
+              "ToolTip": "dbo.UsersRoles [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-08-09T15:13:16.674Z"
             },
@@ -1085,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 154,
               "Title": "20260809145133_intial.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Migrations\\20260809145133_intial.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Migrations\\20260809145133_intial.cs",
@@ -1097,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\CartController.cs",
@@ -1145,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "AddToCartRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\AddToCartRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\AddToCartRequest.cs",
@@ -1227,7 +1236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "UserMovieAccess.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\UserMovieAccess.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\UserMovieAccess.cs",
@@ -1345,20 +1354,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\ReviewService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\ReviewService.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-08T15:27:42.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\NotificationService.cs",
@@ -1366,12 +1375,11 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\NotificationService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T15:26:12.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-08T15:26:12.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\INotificationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\INotificationService.cs",
@@ -1383,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\ReviewController.cs",
@@ -1391,8 +1399,7 @@
               "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\ReviewController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T05:41:29.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-08T05:41:29.754Z"
             },
             {
               "$type": "Document",
@@ -1420,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 103,
               "Title": "FavoriteService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\FavoriteService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\FavoriteService.cs",
@@ -1432,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 104,
               "Title": "IFavoriteService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IFavoriteService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IFavoriteService.cs",
@@ -1456,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 105,
               "Title": "IFavoriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\IFavoriteRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\IFavoriteRepository.cs",
@@ -1468,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 107,
               "Title": "FavoriteResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\FavoriteResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\FavoriteResponse.cs",
@@ -1480,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 110,
               "Title": "FavoriteRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\FavoriteRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\FavoriteRequest.cs",
@@ -1492,20 +1499,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 7,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\MovieController.cs",
               "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwCgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAjwD4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T14:57:36.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 113,
               "Title": "MovieUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieUpdateRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\MovieUpdateRequest.cs",
@@ -1517,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 111,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\MovieRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\MovieRepository.cs",
@@ -1529,7 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "IMovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\IMovieRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\IMovieRepository.cs",
@@ -1541,20 +1548,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\MovieService.cs",
-              "RelativeToolTip": "MoviePlatform1.BLL\\Services\\MovieService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCwAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\MovieService.cs*",
+              "RelativeToolTip": "MoviePlatform1.BLL\\Services\\MovieService.cs*",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAewJkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T12:34:48.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "IMovieService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IMovieService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IMovieService.cs",
@@ -1562,8 +1569,7 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\IMovieService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAhwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T12:34:47.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T12:34:47.72Z"
             },
             {
               "$type": "Document",
@@ -1591,7 +1597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 112,
               "Title": "IActorRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\IActorRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\IActorRepository.cs",
@@ -1603,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 123,
               "Title": "ActorResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\ActorResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\ActorResponse.cs",
@@ -1615,7 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 124,
               "Title": "ActorTranslation.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ActorTranslation.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ActorTranslation.cs",
@@ -1627,7 +1633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "ActorService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\ActorService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\ActorService.cs",
@@ -1635,8 +1641,7 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\ActorService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAIwDwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T10:26:35.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T10:26:35.797Z"
             },
             {
               "$type": "Document",
@@ -1652,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 125,
               "Title": "ActorTranslation.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\ActorTranslation.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\ActorTranslation.cs",
@@ -1664,7 +1669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 130,
               "Title": "dbo.CategoryTranslations.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.CategoryTranslations.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.CategoryTranslations.sql",
@@ -1673,7 +1678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 127,
               "Title": "CategoryUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\CategoryUpdateRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\CategoryUpdateRequest.cs",
@@ -1685,7 +1690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 115,
               "Title": "ActorRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ActorRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ActorRequest.cs",
@@ -1697,20 +1702,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
               "Title": "MovieResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\MovieResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\MovieResponse.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\MovieResponse.cs",
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\MovieResponse.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T09:28:31.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 119,
               "Title": "MovieTranslationRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieTranslationRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\MovieTranslationRequest.cs",
@@ -1722,19 +1727,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 1,
               "Title": "MovieRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs",
-              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs",
-              "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs*",
+              "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Request\\MovieRequest.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T09:18:21.396Z"
+              "WhenOpened": "2026-08-06T09:18:21.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 117,
               "Title": "MovieImage.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\MovieImage.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\MovieImage.cs",
@@ -1746,7 +1752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 133,
               "Title": "GenericRepositry.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Repository\\GenericRepositry.cs",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.DAL\\Repository\\GenericRepositry.cs",
@@ -1758,7 +1764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 134,
               "Title": "3326aa5c-acd4-437f-82ba-57c9adc86c1a.jpg - Bitmap [1700x1000, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\wwwroot\\images\\3326aa5c-acd4-437f-82ba-57c9adc86c1a.jpg",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\wwwroot\\images\\3326aa5c-acd4-437f-82ba-57c9adc86c1a.jpg",
@@ -1770,7 +1776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 135,
               "Title": "2749937b-0678-4f21-9cb0-8c0120b126af.jpg - Bitmap [1700x1000, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\wwwroot\\images\\2749937b-0678-4f21-9cb0-8c0120b126af.jpg",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\wwwroot\\images\\2749937b-0678-4f21-9cb0-8c0120b126af.jpg",
@@ -1782,7 +1788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 136,
               "Title": "06fe1d14-adce-4c53-91a2-e14c1a354473.jpg - Bitmap [1700x1000, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\wwwroot\\images\\06fe1d14-adce-4c53-91a2-e14c1a354473.jpg",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\wwwroot\\images\\06fe1d14-adce-4c53-91a2-e14c1a354473.jpg",
@@ -1794,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 137,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Properties\\launchSettings.json",
@@ -1806,7 +1812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 141,
               "Title": "dbo.Categories.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.Categories.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.Categories.sql",
@@ -1815,7 +1821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 143,
               "Title": "SharedResources.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Resourses\\SharedResources.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Resourses\\SharedResources.cs",
@@ -1827,7 +1833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 144,
               "Title": "SharedResources.resx",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Resourses\\SharedResources.resx",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Resourses\\SharedResources.resx",
@@ -1838,7 +1844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "SharedResources.resx",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.resx",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.resx",
@@ -1849,7 +1855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 145,
               "Title": "SharedResources.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.cs",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.cs",
@@ -1861,7 +1867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 146,
               "Title": "SharedResources.ar.resx",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.ar.resx",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.PL\\Resourses\\SharedResources.ar.resx",
@@ -1872,7 +1878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 128,
               "Title": "LoclizationExtenssion.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Extentions\\LoclizationExtenssion.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Extentions\\LoclizationExtenssion.cs",
@@ -1884,7 +1890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 147,
               "Title": "LocalizationExtention.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Extentions\\LocalizationExtention.cs",
               "RelativeDocumentMoniker": "..\\KASHOP\\KASHOP.PL\\Extentions\\LocalizationExtention.cs",
@@ -1896,7 +1902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\FileService.cs",
@@ -1904,12 +1910,11 @@
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\FileService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T07:36:13.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-05T07:36:13.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 109,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IFileService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IFileService.cs",
@@ -1921,7 +1926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\CategoryController.cs",
@@ -1929,12 +1934,11 @@
               "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwCsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T07:09:30.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-05T07:09:30.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 149,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ResetPasswordRequest.cs",
@@ -1946,19 +1950,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 10,
               "Title": "MapsterConfig.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Mapping\\MapsterConfig.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Mapping\\MapsterConfig.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Mapping\\MapsterConfig.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Mapping\\MapsterConfig.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwEkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T06:38:55.477Z"
+              "WhenOpened": "2026-08-05T06:38:55.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 129,
               "Title": "CategoryTranslatiomRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\CategoryTranslatiomRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\CategoryTranslatiomRequest.cs",
@@ -1994,20 +1999,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\CategoryService.cs",
               "RelativeToolTip": "MoviePlatform1.BLL\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAowCEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowD8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-05T05:22:17.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 120,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\ICategoryService.cs",
@@ -2019,7 +2024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 108,
               "Title": "CategoryResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\CategoryResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\CategoryResponse.cs",
@@ -2031,7 +2036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 122,
               "Title": "CategoryRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\CategoryRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\CategoryRequest.cs",
@@ -2067,7 +2072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 116,
               "Title": "AuditEntity.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\AuditEntity.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\AuditEntity.cs",
@@ -2079,7 +2084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\IGenericRepository.cs",
@@ -2091,20 +2096,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Repository\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "MoviePlatform1.DAL\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-31T18:25:00.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 126,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\Actor.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\Actor.cs",
@@ -2128,7 +2133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 121,
               "Title": "MovieCategory.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\MovieCategory.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\MovieCategory.cs",
@@ -2152,7 +2157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 106,
               "Title": "Favorite.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\Favorite.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\Favorite.cs",
@@ -2164,7 +2169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\Movie.cs",
@@ -2172,12 +2177,11 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Models\\Movie.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T17:03:17.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T17:03:17.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 151,
               "Title": "ForgotPasswordResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\ForgotPasswordResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\ForgotPasswordResponse.cs",
@@ -2189,7 +2193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 142,
               "Title": "ForgotPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\ForgotPasswordRequest.cs",
@@ -2201,7 +2205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\talaF\\AppData\\Roaming\\Microsoft\\UserSecrets\\57d4955c-3af0-423a-80a5-821001333f31\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\57d4955c-3af0-423a-80a5-821001333f31\\secrets.json",
@@ -2213,19 +2217,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 11,
               "Title": "AuthenticationExtentions.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Extentions\\AuthenticationExtentions.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Extentions\\AuthenticationExtentions.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Extentions\\AuthenticationExtentions.cs",
               "RelativeToolTip": "MoviePlatform1.PL\\Extentions\\AuthenticationExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T12:17:49.449Z"
+              "WhenOpened": "2026-07-28T12:17:49.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 118,
               "Title": "MoviePlatform1.BLL.csproj",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\MoviePlatform1.BLL.csproj",
@@ -2237,7 +2242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 101,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\EmailSender.cs",
@@ -2249,7 +2254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 102,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IEmailSender.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IEmailSender.cs",
@@ -2261,7 +2266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 152,
               "Title": "dbo.Roles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.Roles.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/./MoviePlatforms/True/SqlTable/dbo.Roles.sql",
@@ -2270,7 +2275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 139,
               "Title": "MoviePlatform1.PL.csproj",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\MoviePlatform1.PL.csproj",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\MoviePlatform1.PL.csproj",
@@ -2294,7 +2299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 132,
               "Title": "MoviePlatform1.PL.http",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\MoviePlatform1.PL.http",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\MoviePlatform1.PL.http",
@@ -2306,7 +2311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 148,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\IAuthenticationService.cs",
@@ -2318,13 +2323,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\AuthenticationService.cs*",
-              "RelativeToolTip": "MoviePlatform1.BLL\\Services\\AuthenticationService.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowFsAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "MoviePlatform1.BLL\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwDYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T07:06:56.631Z",
               "EditorCaption": ""
@@ -2355,7 +2360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "ApplicationServicesExtentions.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Extentions\\ApplicationServicesExtentions.cs",
@@ -2363,12 +2368,11 @@
               "RelativeToolTip": "MoviePlatform1.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA5wCIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:06:31.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T07:06:31.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 131,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\WeatherForecastController.cs",
@@ -2380,19 +2384,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 9,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MoviePlatform1.PL\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAjwFMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:06:16.185Z"
+              "WhenOpened": "2026-07-28T07:06:16.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Models\\ApplicationUser.cs",
@@ -2400,24 +2405,24 @@
               "RelativeToolTip": "MoviePlatform1.DAL\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:06:00.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T07:06:00.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 8,
               "Title": "RegisterResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\RegisterResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\RegisterResponse.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\RegisterResponse.cs",
               "RelativeToolTip": "MoviePlatform1.DAL\\Dto\\Response\\RegisterResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:05:55.51Z"
+              "WhenOpened": "2026-07-28T07:05:55.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Response\\LoginResponse.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Response\\LoginResponse.cs",
@@ -2429,7 +2434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 140,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\RegisterRequest.cs",
@@ -2441,7 +2446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 114,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Dto\\Request\\LoginRequest.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Dto\\Request\\LoginRequest.cs",
@@ -2453,7 +2458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Data\\ApplicationDbContext.cs",
@@ -2465,7 +2470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 138,
               "Title": "MoviePlatform1.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\MoviePlatform1.DAL.csproj",
@@ -2501,7 +2506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 150,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.BLL\\Class1.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.BLL\\Class1.cs",
@@ -2513,7 +2518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 153,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.DAL\\Class1.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.DAL\\Class1.cs",
@@ -2525,13 +2530,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Program.cs",
               "RelativeDocumentMoniker": "MoviePlatform1.PL\\Program.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\MoviePlatform1\\MoviePlatform1.PL\\Program.cs",
               "RelativeToolTip": "MoviePlatform1.PL\\Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowEUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T06:52:54.974Z",
               "EditorCaption": ""
